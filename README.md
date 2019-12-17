@@ -1,17 +1,27 @@
 # a500plus-chipram-expansion
 
-This is a 1MB chip RAM expansion designed for the Amiga 500+
+This is a 1MB chip RAM expansion designed for the Amiga 500+ in KiCad.
 
 ![a500plus-chipram board image](https://raw.githubusercontent.com/blark/a500plus-chipram-expansion/master/media/rev1_render.png)
 
 It is in the experimental phase, but I've assembled it and it appears to be working great. However, you've been warned!
 
+## Features
+
+Small, simple and uses only a 40 pin (2x20) female 2.54mm connector the remaining pins are for RTC which is on board the A500+.
+
+40 pin connectors are cheap and plentiful. However, one WARNING: make sure you plug it in correctly. The arrow on the board should be closest to the front of the Amiga (pin 1 on the board should match to pin 1 of the Amiga expansion header).
+
+## Schematic
+
+A PDF file of the schematic can be found [in this repo](https://raw.githubusercontent.com/blark/a500plus-chipram-expansion/master/media/schematic.pdf).
+
 ## BOM
 ```
 J1      40P (20x2) female header 2.54mm
 J2      2P (1x2) male 90 degree header 2.54mm
-U1-2    IS41C16257-35T 4mbit DRAM (256 x 16)
-C1-6    100nF 805 capacitor
+U1-U2    IS41C16257-35T 4mbit DRAM (256 x 16)
+C1-C6    100nF 805 capacitor
 ```
 ## Thanks
 
