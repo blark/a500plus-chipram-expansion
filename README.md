@@ -2,6 +2,8 @@
 
 This is a 1MB chip RAM expansion designed for the Amiga 500+
 
+![a500plus-chipram board image](https://github.com/blark/a500plus-chipram-expansion/media/rev1_render.png)
+
 It is in the experimental phase, but I've assembled it and it appears to be working great. However, you've been warned!
 
 ## BOM
