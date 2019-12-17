@@ -1,0 +1,36 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AS7C316098B-10TIN
+D 3.3V, 10ns 1024Kx16 Async SRAM
+$ENDCMP
+#
+$CMP ATF1502AS-7AX44
+D 32 Macrocell 5v CPLD
+F https://www.mouser.co.uk/datasheet/2/268/atmel-0995-cpld-atf1502as(l)-datasheet-1368695.pdf
+$ENDCMP
+#
+$CMP ATF1502ASV-15JU44
+D 32 Macrocell 5v CPLD
+$ENDCMP
+#
+$CMP CY62146ESL-45ZSXI
+D 4-Mbit (256K × 16) Static RAM, 45ns, TSOP II-44
+K SRAM MEMORY
+F https://www.cypress.com/file/43011/download
+$ENDCMP
+#
+$CMP CY7C1041GN-10VXI
+D 4-Mbit (256K × 16) Static RAM, 45ns, TSOP II-44
+K SRAM MEMORY
+F https://www.cypress.com/file/221596/download
+$ENDCMP
+#
+$CMP TPS7333QD
+D 3.3v 500ma LDO
+$ENDCMP
+#
+$CMP TPS7333QP
+D 3.3v 500ma LDO
+$ENDCMP
+#
+#End Doc Library

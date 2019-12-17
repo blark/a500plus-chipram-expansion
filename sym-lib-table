@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name A500_Parts)(type Legacy)(uri "${KIPRJMOD}/A500 Parts Library/A500 Parts.lib")(options "")(descr ""))
+)
