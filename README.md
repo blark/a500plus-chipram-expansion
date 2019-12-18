@@ -8,9 +8,9 @@ It is in the experimental phase, but I've assembled it and it appears to be work
 
 ## Features
 
-Small (42mmx52mm), simple design using only a 40 pin (2x20) female 2.54mm connector the remaining pins are for RTC which is on-board the A500+.
+Small (42mmx52mm), simple design using only a 40 pin (2x20) female 2.54mm connector. The remaining pins are for the RTC which is on-board the A500+, so they are unecessary for RAM expansion. This makes it possible to use a 40 pin connector, which is cheaper and easier to find.
 
-40 pin connectors are cheap and plentiful. However, one WARNING: make sure you plug it in correctly see the install section below).
+WARNING: **make sure you plug it in correctly** see the [install section](https://github.com/blark/a500plus-chipram-expansion#install) below.
 
 ## Schematic
 
@@ -32,4 +32,4 @@ Be careful during install to match pin 1 on the expansion with pin 1 on the A500
 
 ## Thanks
 
-The parts library I've included in this repo is "borrowed" from [Kai Robinson](https://github.com/kr239) check out his great projects!
+The parts library I've included (and expanded upon) in this repo is "borrowed" from [Kai Robinson](https://github.com/kr239) check out his great projects!
