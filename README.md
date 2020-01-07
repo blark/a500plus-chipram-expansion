@@ -20,7 +20,7 @@ A PDF file of the schematic can be found [in this repo](https://raw.githubuserco
 | Designator | Description |
 | ---------- | ----------- |
 | J1 | 40P (20x2) female header 2.54mm |
-| J2 |     2P (1x2) male 90 degree header 2.54mm |
+| J2 | 1x DPDT Sub-Miniature Slide switch (9x4x3.5mm, easily found on Ebay) |
 | U1-U2 |    IS41C16257-35T 4mbit DRAM (256 x 16) |
 | C1-C6 |  100nF 805 capacitor |
 
