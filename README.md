@@ -2,7 +2,7 @@
 
 This is a 1MB chip RAM expansion designed for the Amiga 500+ in KiCad.
 
-![a500plus-chipram board image](https://raw.githubusercontent.com/blark/a500plus-chipram-expansion/master/media/rev1_render.png)
+![a500plus-chipram board image](https://raw.githubusercontent.com/blark/a500plus-chipram-expansion/master/media/rev2_render.png)
 
 It is in the experimental phase, but I've assembled it and it appears to be working great. However, you've been warned!
 
