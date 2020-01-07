@@ -24,6 +24,7 @@ A PDF file of the schematic can be found [in this repo](https://raw.githubuserco
 | U1-U2 | IS41C16257-35T 4mbit DRAM (256 x 16) |
 | C1-C6 | 100nF 603 SMD capacitor |
 | C7 | 10uF 805 SMD capacitor |
+| R1 | 10K 805 SMD resistor |
 
 ## Install
 
