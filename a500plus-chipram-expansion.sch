@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Archer, A500+ 1MB chip RAM expansion "
 Date "2019-12-17"
-Rev "v1.1"
+Rev "v2.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -289,36 +289,23 @@ F 3 "~" H 2300 3175 50  0001 C CNN
 	1    2300 3175
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 5DE8A26B
-P 2300 4500
-F 0 "J2" H 2380 4492 50  0000 L CNN
-F 1 "Enable" H 2380 4401 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 2300 4500 50  0001 C CNN
-F 3 "~" H 2300 4500 50  0001 C CNN
-	1    2300 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2100 4600 1900 4600
-Wire Wire Line
-	1900 4600 1900 4750
+	2900 6100 2900 6150
 $Comp
 L power:GND #PWR0103
 U 1 1 5DE8DE38
-P 1900 4750
-F 0 "#PWR0103" H 1900 4500 50  0001 C CNN
-F 1 "GND" H 1905 4577 50  0000 C CNN
-F 2 "" H 1900 4750 50  0001 C CNN
-F 3 "" H 1900 4750 50  0001 C CNN
-	1    1900 4750
+P 2900 6150
+F 0 "#PWR0103" H 2900 5900 50  0001 C CNN
+F 1 "GND" H 2905 5977 50  0000 C CNN
+F 2 "" H 2900 6150 50  0001 C CNN
+F 3 "" H 2900 6150 50  0001 C CNN
+	1    2900 6150
 	1    0    0    -1  
 $EndComp
-Text GLabel 1650 4500 0    50   Output ~ 0
+Text GLabel 1525 5800 0    50   Output ~ 0
 EN
 Wire Wire Line
-	2100 4500 1650 4500
+	1850 5800 1525 5800
 Wire Wire Line
 	5200 3400 4875 3400
 Text GLabel 4875 3400 0    50   Input ~ 0
@@ -915,6 +902,89 @@ F 1 "XRAS(0) 512KB" H 6175 1875 50  0000 C CNN
 F 2 "a500plus-chipram-expansion:TSOP-II-40" H 5700 1750 50  0001 C CNN
 F 3 "" H 5700 1750 50  0001 C CNN
 	1    5700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5DFB4940
+P 9725 5825
+F 0 "C7" H 9817 5871 50  0000 L CNN
+F 1 "10uF" H 9817 5780 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9725 5825 50  0001 C CNN
+F 3 "~" H 9725 5825 50  0001 C CNN
+	1    9725 5825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9275 5925 9725 5925
+Connection ~ 9275 5925
+Wire Wire Line
+	9725 5725 9275 5725
+Connection ~ 9275 5725
+Wire Wire Line
+	2425 5500 2700 5500
+Wire Wire Line
+	2700 5500 2700 5900
+Wire Wire Line
+	2700 5900 2425 5900
+Wire Wire Line
+	2425 5700 2525 5700
+Wire Wire Line
+	2525 5700 2525 6100
+Wire Wire Line
+	2525 6100 2425 6100
+Wire Wire Line
+	2025 5600 1850 5600
+Wire Wire Line
+	1850 6000 2025 6000
+Wire Wire Line
+	2525 6100 2900 6100
+Connection ~ 2525 6100
+Wire Wire Line
+	2700 5900 2900 5900
+Connection ~ 2700 5900
+Wire Wire Line
+	1850 5600 1850 5800
+Connection ~ 1850 5800
+Wire Wire Line
+	1850 5800 1850 6000
+Wire Wire Line
+	2900 5650 2900 5525
+$Comp
+L power:+5V #PWR0110
+U 1 1 5E081234
+P 2900 5525
+F 0 "#PWR0110" H 2900 5375 50  0001 C CNN
+F 1 "+5V" H 2915 5698 50  0000 C CNN
+F 2 "" H 2900 5525 50  0001 C CNN
+F 3 "" H 2900 5525 50  0001 C CNN
+	1    2900 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5E09DA69
+P 2900 5750
+F 0 "R1" H 2959 5796 50  0000 L CNN
+F 1 "10K" H 2959 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2900 5750 50  0001 C CNN
+F 3 "~" H 2900 5750 50  0001 C CNN
+	1    2900 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5900 2900 5850
+Text Notes 1800 5200 0    79   ~ 0
+ENABLE SWITCH
+$Comp
+L Switch:SW_Push_DPDT SW1
+U 1 1 5DFFBFE2
+P 2225 5800
+F 0 "SW1" H 2225 6085 50  0000 C CNN
+F 1 "<ENABLE" H 2225 5994 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_CuK_JS202011AQN_DPDT_Angled" H 2225 5800 50  0001 C CNN
+F 3 "~" H 2225 5800 50  0001 C CNN
+	1    2225 5800
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
