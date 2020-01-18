@@ -16,6 +16,10 @@ WARNING: **make sure you plug it in correctly** see the [install section](https:
 
 A PDF file of the schematic can be found [in this repo](https://raw.githubusercontent.com/blark/a500plus-chipram-expansion/master/media/schematic.pdf).
 
+## Ordering
+
+I shared the design at [Oshpark](https://oshpark.com/shared_projects/eQQuG4Mi)
+
 ## BOM
 | Designator | Description |
 | ---------- | ----------- |
